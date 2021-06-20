@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbeyClasses", "AbbeyClasses\AbbeyClasses.csproj", "{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE8F741B-4030-4630-A8B6-C03D71464056}
+	EndGlobalSection
+EndGlobal
