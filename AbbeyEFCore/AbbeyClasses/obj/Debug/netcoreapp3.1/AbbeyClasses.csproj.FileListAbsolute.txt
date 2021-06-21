@@ -1,0 +1,12 @@
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\bin\Debug\netcoreapp3.1\AbbeyClasses.deps.json
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\bin\Debug\netcoreapp3.1\AbbeyClasses.runtimeconfig.json
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\bin\Debug\netcoreapp3.1\AbbeyClasses.runtimeconfig.dev.json
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\bin\Debug\netcoreapp3.1\AbbeyClasses.dll
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\bin\Debug\netcoreapp3.1\AbbeyClasses.pdb
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.csproj.AssemblyReference.cache
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.AssemblyInfoInputs.cache
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.AssemblyInfo.cs
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.csproj.CoreCompileInputs.cache
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.dll
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.pdb
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyClasses\obj\Debug\netcoreapp3.1\AbbeyClasses.genruntimeconfig.cache
