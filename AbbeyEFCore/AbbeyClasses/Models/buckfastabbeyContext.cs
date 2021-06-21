@@ -1,16 +1,17 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using AbbeyClasses;
 
 namespace AbbeyClasses.Models
 {
-    public partial class buckfastabbeyContext : DbContext
+    public partial class BuckfastabbeyContext : DbContext
     {
-        public buckfastabbeyContext()
+        public BuckfastabbeyContext()
         {
         }
 
-        public buckfastabbeyContext(DbContextOptions<buckfastabbeyContext> options)
+        public BuckfastabbeyContext(DbContextOptions<BuckfastabbeyContext> options)
             : base(options)
         {
         }
@@ -21,8 +22,7 @@ namespace AbbeyClasses.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseMySQL("server=localhost;port=3306;user=root;password=groyper*6673;database=buckfastabbey");
+                optionsBuilder.UseMySQL(ConfigDB.GetMySqlConnectionString());
             }
         }
 
