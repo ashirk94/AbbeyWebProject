@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbeyClasses", "AbbeyClasses\AbbeyClasses.csproj", "{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbbeyClasses", "AbbeyClasses\AbbeyClasses.csproj", "{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbeyTests", "AbbeyTests\AbbeyTests.csproj", "{24ED129A-813B-4015-95F0-1406BCA9212E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12F7DABA-F1C2-439C-B76A-8DCC32BC673E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24ED129A-813B-4015-95F0-1406BCA9212E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24ED129A-813B-4015-95F0-1406BCA9212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24ED129A-813B-4015-95F0-1406BCA9212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24ED129A-813B-4015-95F0-1406BCA9212E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
