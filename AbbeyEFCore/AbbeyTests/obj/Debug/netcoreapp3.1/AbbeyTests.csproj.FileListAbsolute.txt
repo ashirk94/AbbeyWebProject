@@ -141,3 +141,4 @@ C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyTests\
 C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyTests\obj\Debug\netcoreapp3.1\AbbeyTests.dll
 C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyTests\obj\Debug\netcoreapp3.1\AbbeyTests.pdb
 C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyTests\obj\Debug\netcoreapp3.1\AbbeyTests.genruntimeconfig.cache
+C:\Users\ashir\OneDrive\Documents\GitHub\AbbeyWebProject\AbbeyEFCore\AbbeyTests\bin\Debug\netcoreapp3.1\mySqlSettings.json

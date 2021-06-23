@@ -3,3 +3,6 @@
 ################################################################################
 
 /AbbeyEFCore/AbbeyClasses/mySqlSettings.json
+/AbbeyEFCore/AbbeyRestAPI/appsettings.json
+/AbbeyEFCore/AbbeyRestAPI/Properties/launchSettings.json
+/AbbeyEFCore/AbbeyClasses/jsconfig1.json

@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbbeyClasses", "AbbeyClasse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbeyTests", "AbbeyTests\AbbeyTests.csproj", "{24ED129A-813B-4015-95F0-1406BCA9212E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbbeyRestAPI", "AbbeyRestAPI\AbbeyRestAPI.csproj", "{CFECF977-2149-4342-BC7D-EDA902BAB54B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{24ED129A-813B-4015-95F0-1406BCA9212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24ED129A-813B-4015-95F0-1406BCA9212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24ED129A-813B-4015-95F0-1406BCA9212E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFECF977-2149-4342-BC7D-EDA902BAB54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFECF977-2149-4342-BC7D-EDA902BAB54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFECF977-2149-4342-BC7D-EDA902BAB54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFECF977-2149-4342-BC7D-EDA902BAB54B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
