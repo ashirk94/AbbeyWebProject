@@ -10,7 +10,7 @@ namespace AbbeyClasses
     {
         public static string GetMySqlConnectionString()
         {
-            string folder = Directory.GetCurrentDirectory();
+            string folder = System.AppContext.BaseDirectory;
             var builder = new ConfigurationBuilder()
                     .SetBasePath(folder)
                     .AddJsonFile("mySqlSettings.json", optional: true, reloadOnChange: true);
