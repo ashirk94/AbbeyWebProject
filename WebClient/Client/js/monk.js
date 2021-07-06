@@ -1,3 +1,5 @@
+//Web app altered state/customer client for monk data - sql file included in the base folder of repository
+
 class MonkPage {
 
   constructor() {
