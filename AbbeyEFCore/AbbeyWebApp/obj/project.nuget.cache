@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xIie4EqtuAJzTvsh9+epLTm3tE06V+rEgA+mwQr5A1Nu0yUp1GAWHdq/LRVV0NfRdeZXRXEoE5DLILMYkqm0pQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ashir\\OneDrive\\Documents\\GitHub\\AbbeyWebProject\\AbbeyEFCore\\AbbeyWebApp\\AbbeyWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ashir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gALIA2wmN/fk9vCg8YpqHbrE42ceL2Wsevn+617CV3fzEXXv4m4n5A3ikfyw0Ecg4c5tY8N+Qb4Mbrp5Fg71sg==",
+  "dgSpecHash": "sT8caETRhgEg+5L19jMzi4q65F2etPupFn//EhI5MwZEmrPau4i+qeCNMHgivpXNR+6es48yj6mmIVeCnFp2mQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ashir\\OneDrive\\Documents\\GitHub\\AbbeyWebProject\\AbbeyEFCore\\AbbeyRestAPI\\AbbeyRestAPI.csproj",
   "expectedPackageFiles": [
@@ -178,7 +178,8 @@
     "C:\\Users\\ashir\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\ashir\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ashir\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\ashir\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\ashir\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\ashir\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
   ],
   "logs": []
 }

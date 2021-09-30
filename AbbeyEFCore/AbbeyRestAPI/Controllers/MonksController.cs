@@ -9,6 +9,7 @@ using AbbeyClasses.Models;
 
 namespace AbbeyRestAPI.Controllers
 {
+    //api route
     [Route("api/[controller]")]
     [ApiController]
     public class MonksController : ControllerBase
@@ -27,7 +28,7 @@ namespace AbbeyRestAPI.Controllers
             return await _context.Monk.ToListAsync();
         }
 
-        // GET: api/Monks/5
+        // GET: api/Monks/id
         [HttpGet("{id}")]
         public async Task<ActionResult<Monk>> GetMonk(int id)
         {
@@ -41,7 +42,7 @@ namespace AbbeyRestAPI.Controllers
             return monk;
         }
 
-        // PUT: api/Monks/5
+        // PUT: api/Monks/id
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
@@ -85,7 +86,7 @@ namespace AbbeyRestAPI.Controllers
             return CreatedAtAction("GetMonk", new { id = monk.MonkId }, monk);
         }
 
-        // DELETE: api/Monks/5
+        // DELETE: api/Monks/id
         [HttpDelete("{id}")]
         public async Task<ActionResult<Monk>> DeleteMonk(int id)
         {
