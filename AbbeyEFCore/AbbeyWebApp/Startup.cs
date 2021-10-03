@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AbbeyClasses;
 
 namespace AbbeyWebApp
 {
@@ -23,6 +24,23 @@ namespace AbbeyWebApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //cors policy
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                    builder =>
+                    {
+                        builder.AllowAnyOrigin()
+                        .WithMethods("POST", "PUT", "DELETE", "GET", "OPTIONS")
+                        .AllowAnyHeader();
+                    });
+            });
+            services.AddDbContext<AbbeyClasses.Models.BuckfastabbeyContext>();
+            services.AddMvc(options =>
+            {
+                options.SuppressAsyncSuffixInActionNames = false;
+            });
+            services.AddControllersWithViews();
             services.AddRazorPages();
         }
 
@@ -40,15 +58,18 @@ namespace AbbeyWebApp
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
 
             app.UseAuthorization();
 
+            app.UseCors();
+
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllers();
                 endpoints.MapRazorPages();
             });
         }

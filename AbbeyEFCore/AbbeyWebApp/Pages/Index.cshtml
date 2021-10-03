@@ -4,7 +4,65 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="text-center" style="background-image: url(monatery.png);">
+    <div class="ui segment" style="background-image: url(monatery.png);">
+        <div class="ui three column grid">
+            <div class="ui two wide column"></div>
+            <div class="ui twelve wide column">
+                <h1 class="ui dividing header">Buckfast Abbey -- Monk Data Application</h1>
+                <form class="ui form" id="monkForm">
+                    <div class="ui three column grid">
+                        <div class="ui nine wide column"><h2 class="ui heading">Find a Monk</h2></div>
+                        <div class="ui three wide right aligned column">
+                            <input type="number" id="monkId" placeholder="monk id" />
+                        </div>
+                        <div class="ui four wide center aligned column">
+                            <button class="ui big button" id="findBtn">Find</button>
+                        </div>
+                    </div>
+                    <div class="ui two column grid">
+                        <div class="ui twelve wide column">
+                            <div class="ten wide field">
+                                <label>First Name</label>
+                                <div class="field">
+                                    <input type="text" id="firstName">
+                                </div>
+                            </div>
+                            <div class="ten wide field">
+                                <label>Last Name</label>
+                                <div class="field">
+                                    <input type="text" id="lastName">
+                                </div>
+                            </div>
+                            <div class="three wide field">
+                                <label>Age</label>
+                                <input type="number" id="age">
+                            </div>
+
+                            <div class="ten wide field">
+                                <label>Role</label>
+                                <input type="text" id="role">
+                            </div>
+                        </div>
+
+                        <div class="ui four wide center aligned column">
+                            <div class="ui vertical large buttons">
+                                <button class="ui button" id="deleteBtn">Delete</button>
+                                <button class="ui button" id="editBtn">Edit</button>
+                                <button class="ui button" id="addBtn">Add</button>
+                                <button class="ui button" id="saveBtn">Save</button>
+                                <button class="ui button" id="cancelBtn">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <div class="ui two wide column"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
 </div>

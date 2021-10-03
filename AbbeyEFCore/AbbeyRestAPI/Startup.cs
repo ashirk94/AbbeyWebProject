@@ -48,6 +48,7 @@ namespace AbbeyRestAPI
                 app.UseDeveloperExceptionPage();
             }
 
+            //
             //app.UseHttpsRedirection();
 
             app.UseCors();
